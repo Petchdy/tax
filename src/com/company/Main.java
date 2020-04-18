@@ -27,7 +27,7 @@ public class Main {
             else if (x>=300_001){
                 System.out.printf("%.2f",x*0.1);
             }
-            else if (x>=150_000){
+            else {
                 System.out.printf("%.2f",x*0.05);
             }
         }
